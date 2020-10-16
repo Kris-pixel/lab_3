@@ -8,13 +8,13 @@ namespace lab_3
 {
     public partial class Abiturient
     {
-        private readonly int id;//generate
-        private string lastName;//input
-        private string name;//input
-        private string fatherName;//input
-        private string adres;//input
-        private int phNumber;//input
-        private int[] marks;//generate
+        private readonly int id;
+        private string lastName;
+        private string name;
+        private string fatherName;
+        private string adres;
+        private int phNumber;
+        private int[] marks;
         private const string uO = "BSTU";
         private static int amout;
 
@@ -202,7 +202,6 @@ namespace lab_3
             if (this.id == ab.id) return true;
             else return false;
         }
-
         public override int GetHashCode()
         {
             int hash = 47;
